@@ -58,7 +58,6 @@ A operação escolhida foi a **gestão de salas e espaços acadêmicos**, pois �
 
 ### ▶️ Passo a passo
 
-```bash
 git clone https://github.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app
 cd fiap-cpad-cp2-fiap-salas-app
 npm install
