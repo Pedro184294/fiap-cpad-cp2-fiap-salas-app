@@ -1,50 +1,185 @@
-# Welcome to your Expo app 👋
+# 📱 FIAP Salas App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## 📌 Sobre o Projeto
 
-## Get started
+O **FIAP Salas App** é um aplicativo mobile desenvolvido com React Native (Expo) que permite visualizar salas disponíveis e gerenciar preferências do usuário.
 
-1. Install dependencies
+O problema abordado foi a **organização e visualização de salas disponíveis na FIAP**, facilitando o acesso e a experiência do aluno.
 
-   ```bash
-   npm install
-   ```
+### 🎯 Operação da FIAP escolhida
 
-2. Start the app
+A operação escolhida foi a **gestão de salas e espaços acadêmicos**, pois é algo presente no dia a dia dos alunos e pode ser otimizado com tecnologia.
 
-   ```bash
-   npx expo start
-   ```
+### 🔄 Melhorias em relação ao CP1
 
-In the output, you'll find options to open the app in a
+- Implementação de **autenticação de usuário**
+- Persistência de dados com **AsyncStorage**
+- Uso de **Context API** para estado global
+- Criação de **tela de cadastro**
+- Validação completa de formulários
+- Proteção de rotas (usuário precisa estar logado)
+- Melhorias de UX/UI (feedback visual, loading, etc.)
+- Uso de **armazenamento seguro com SecureStore (diferencial)**
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## ⚙️ Funcionalidades
 
-## Get a fresh project
+- ✅ Cadastro de usuário  
+- ✅ Login com validação  
+- ✅ Logout  
+- ✅ Persistência de sessão  
+- ✅ Listagem de salas  
+- ✅ Marcar salas como favoritas ⭐  
+- ✅ Persistência de dados (favoritos)  
+- ✅ Validação de formulários  
+- ✅ Proteção de rotas  
+- ✅ Feedback visual (erros, loading e sucesso)  
 
-When you're ready, run:
+---
+
+## 👥 Integrantes do Grupo
+
+- **Nome:** Pedro Luis Tofoli  
+- **RM:** 564441  
+
+---
+
+## 🚀 Como Rodar o Projeto
+
+### 📋 Pré-requisitos
+
+- Node.js instalado  
+- Expo CLI  
+- Expo Go (celular)  
+- Android Studio (opcional)  
+
+---
+
+### ▶️ Passo a passo
 
 ```bash
-npm run reset-project
-```
+git clone https://github.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app
+cd fiap-cpad-cp2-fiap-salas-app
+npm install
+npx expo start
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+### 📸 Demonstração Visual
+## 📱 Telas do App
 
-## Learn more
+### 🔐 Login
+![Login](./assets/login.png)
 
-To learn more about developing your project with Expo, look at the following resources:
+### 📝 Cadastro
+![Cadastro](./assets/cadastro.png)
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+### 🏠 Home
+![Home](./assets/home.png)
 
-## Join the community
+### 📚 Salas
+![Salas](./assets/salas.png)
 
-Join our community of developers creating universal apps.
+### 👤 Perfil
+![Perfil](./assets/perfil.png)
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## 🎥 Demonstração do App
+
+[![Assista ao vídeo](https://img.youtube.com/vi/aGHD3ZuMyqw/0.jpg)](https://youtu.be/aGHD3ZuMyqw)
+
+> Clique na imagem para assistir ao vídeo completo
+Fluxo demonstrado:
+
+Cadastro → Login → Uso do app → Logout
+
+## 🧠 Decisões Técnicas
+
+### 📁 Estrutura do Projeto
+
+O projeto foi organizado da seguinte forma:
+
+- `app/` → Telas do aplicativo  
+- `components/` → Componentes reutilizáveis  
+- `context/` → Gerenciamento de estado global  
+- `assets/` → Imagens e recursos  
+
+---
+
+### 🔐 Context API
+
+Foi criado o **AuthContext**, responsável por:
+
+- Gerenciar usuário logado  
+- Função de login  
+- Função de logout  
+- Persistência de sessão  
+
+---
+
+### 🔑 Autenticação
+
+A autenticação foi implementada com:
+
+- Cadastro de usuário  
+- Validação de credenciais no login  
+- Persistência de sessão  
+- Controle de acesso às telas  
+
+---
+
+### 💾 Persistência com AsyncStorage
+
+Os seguintes dados são persistidos:
+
+- Usuário logado  
+- Salas favoritas  
+
+Os dados são carregados automaticamente ao iniciar o app utilizando `useEffect`.
+
+---
+
+### 🔒 Navegação protegida
+
+A navegação foi protegida com base no estado global:
+
+- Usuário não logado → acesso apenas às telas de autenticação  
+- Usuário logado → acesso completo ao app  
+
+---
+
+## 🚀 Diferencial Técnico
+
+Foi utilizado o **Expo SecureStore** para armazenamento seguro de dados.
+
+---
+
+### 🎯 Justificativa
+
+O SecureStore permite armazenar dados com criptografia nativa do dispositivo, garantindo maior segurança em comparação ao AsyncStorage tradicional.
+
+Isso melhora a proteção das informações do usuário, especialmente dados sensíveis como login.
+
+---
+
+### ⚙️ Implementação
+
+- Uso do SecureStore para armazenar dados do usuário  
+- Integração com AsyncStorage como fallback para web  
+- Aplicação no controle de sessão do usuário  
+
+---
+
+## 🔮 Próximos Passos
+
+- Integração com API real  
+- Sistema de reserva de salas  
+- Notificações  
+- Melhorias visuais (UI/UX)  
+- Sistema de busca e filtros  
+
+---
+
+## 📌 Considerações Finais
+
+O projeto evoluiu significativamente em relação ao CP1, incorporando conceitos importantes como autenticação, persistência de dados e gerenciamento de estado global.
+
+Além disso, foram aplicadas melhorias de experiência do usuário e um diferencial técnico voltado à segurança, tornando a aplicação mais completa e robusta.
