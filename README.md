@@ -69,19 +69,19 @@ npx expo start
 ## 📱 Demonstração
 
 ### 🔐 Login
-[![Login](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/login_v2.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/login_v2.png)
+![Login](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/login_v2.png)
 
 ### 📝 Cadastro
-[![Cadastro](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/cadastro_v2.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/cadastro_v2.png)
+![Cadastro](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/cadastro_v2.png)
 
 ### 🏠 Home
-[![Home](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/home_v2.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/home_v2.png)
+![Home](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/home_v2.png)
 
 ### 🏫 Salas
-[![Salas](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/salas_v2.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/salas_v2.png)
+![Salas](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/salas_v2.png)
 
 ### 👤 Perfil
-[![Perfil](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/perfil_v2.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/perfil_v2.png)
+![Perfil](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/perfil_v2.png)
 
 ---
 
