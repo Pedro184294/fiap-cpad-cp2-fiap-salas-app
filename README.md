@@ -66,20 +66,22 @@ npx expo start
 ### 📸 Demonstração Visual
 ## 📱 Telas do App
 
+## 📱 Demonstração
+
 ### 🔐 Login
-[![Login](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/login.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/login.png)
+[![Login](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/login_v2.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/login_v2.png)
 
 ### 📝 Cadastro
-[![Cadastro](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/cadastro.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/cadastro.png)
+[![Cadastro](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/cadastro_v2.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/cadastro_v2.png)
 
 ### 🏠 Home
-[![Home](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/home.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/home.png)
+[![Home](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/home_v2.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/home_v2.png)
 
 ### 🏫 Salas
-[![Salas](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/salas.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/salas.png)
+[![Salas](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/salas_v2.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/salas_v2.png)
 
 ### 👤 Perfil
-[![Perfil](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/perfil.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/perfil.png)
+[![Perfil](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/perfil_v2.png)](https://raw.githubusercontent.com/Pedro184294/fiap-cpad-cp2-fiap-salas-app/main/assets/images/perfil_v2.png)
 
 ---
 
